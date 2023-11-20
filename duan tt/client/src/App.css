@@ -1,0 +1,31 @@
+.red-text {
+    color: red;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background: var(--neutral-gray-gray-50, #F0F1F3);
+    padding: 4px 4px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.green-text {
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    background: var(--neutral-gray-gray-50, #F0F1F3);
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cancelled-order {
+    color: red;
+    /* Text color for "Đã hủy" or "Đã hoàn tiền" */
+}
+
+.cancelled-row {
+    background-color: #ffe6e6;
+    /* Background color for the entire row */
+}
